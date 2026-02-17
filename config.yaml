@@ -20,7 +20,7 @@ remote-management:
   # Management key. If a plaintext value is provided here, it will be hashed on startup.
   # All management requests (even from localhost) require this key.
   # Leave empty to disable the Management API entirely (404 for all /v0/management routes).
-  secret-key: "loveislifeE2_@"
+  secret-key: "m"
 
   # Disable the bundled management control panel asset download and HTTP route when true.
   disable-control-panel: false
@@ -33,9 +33,9 @@ auth-dir: "~/.cli-proxy-api"
 
 # API keys for authentication
 api-keys:
-  - "loveislifeE2_@2"
-  - "loveislifeE2_@3"
-  - "loveislifeE2_@2"
+  - "m"
+  - "m"
+  - "m"
 
 # Enable debug logging
 debug: false
